@@ -3,7 +3,7 @@
 const request = require('request-promise');
 const crypto = require('crypto');
 
-const apiUrl = 'http://api.cryptorg.local:8080/';
+const apiUrl = 'https://api.cryptorg.net/';
 
 module.exports = class CryptorgApi {
 
