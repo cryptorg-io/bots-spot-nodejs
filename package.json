@@ -1,0 +1,25 @@
+{
+  "name": "cryptorg-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is example class for Cryptorg Api",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/molotoksoftware/cryptorg-api-nodejs.git"
+  },
+  "main": "CryptorgApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cryptorg",
+    "Api"
+  ],
+  "author": "exhum4n <exhum4n@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "latest",
+    "request-promise": "latest",
+    "crypto-js": "latest"
+  }
+}
