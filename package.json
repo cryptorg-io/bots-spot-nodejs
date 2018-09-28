@@ -5,7 +5,7 @@
   "description": "This is example class for Cryptorg Api",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/molotoksoftware/cryptorg-api-nodejs.git"
+    "url" : "https://github.com/cryptorg-io/cryptorg-api-nodejs.git"
   },
   "main": "CryptorgApi.js",
   "scripts": {
