@@ -217,7 +217,7 @@ module.exports = class CryptorgApi {
      */
     sendRequest(method, url, query = null, params = null) {
 
-        let nonce = new Date().getTime();
+        let nonce = Math.floor(new Date() / 1000);
 
         let hash = this.getSignature(url, query, nonce);
 
