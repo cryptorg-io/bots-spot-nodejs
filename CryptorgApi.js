@@ -28,6 +28,17 @@ module.exports = class CryptorgApi {
     }
 
     /**
+     * Get withdrawal history
+     * @param params[]
+     * @returns {Promise<request>}
+     */
+    withdrawalHistory(params = null) {
+
+        let query = "asset=" + params.asset;
+        return this.sendRequest('GET', 'account/get-withdrawal-history', query);
+    }
+
+    /**
      * Get all user's bots
      * @returns {Promise<request>}
      */
